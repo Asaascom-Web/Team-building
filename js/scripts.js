@@ -146,7 +146,7 @@
 
 
 		// SLIDER
-		var menu = ['WHO WE ARE<span>OUR PASSION</span>', 'NOTHERN LIGHTS<span>SPECIAL OFFER</span>', 'BEST SELLING<span>ICE CLIMBING</span>', 'THE FAMOUS<span>HIKING TRAILS</span>'];
+		var menu = ['WHO WE ARE<span>Talent Develoment</span>', 'BODSPIRE<span>Team Dynamics</span>', 'BODSPIRE<span>Trust Building</span>', 'BODSPIRE<span>Team Energy</span>'];
 		var interleaveOffset = 0.5;
 		var swiperOptions = {
 			loop: true,
