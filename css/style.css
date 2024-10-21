@@ -3956,7 +3956,7 @@ h1 {
   transition: 0.25s ease-in-out;
 }
 .checkout .passengers-info form .inner .dropdown .dropdown-menu a:hover {
-  color: #ff9019;
+  color: #905bfb;
 }
 .checkout .passengers-info form .inner .selectdrop a {
   float: none;
@@ -4324,7 +4324,7 @@ h1 {
   border: 1px solid #dee0e2;
   border-radius: 50%;
   text-align: center;
-  color: #ff9019;
+  color: #905bfb;
   -webkit-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
 }
@@ -4408,7 +4408,7 @@ h1 {
   position: absolute;
   width: 6px;
   height: 6px;
-  background: #ff9019;
+  background: #905bfb;
   border-radius: 50%;
   top: 50%;
   left: 50%;
@@ -4444,7 +4444,7 @@ h1 {
 }
 .filter .dropdown-check li > div span:last-child {
   float: right;
-  color: #ff9019;
+  color: #905bfb;
 }
 @-webkit-keyframes dropdown-fade {
   0% {
@@ -4574,8 +4574,8 @@ h1 {
   text-decoration: none;
 }
 .tour-single-header .filter a:hover i {
-  background-color: #ff9019;
-  border: 1px solid #ff9019;
+  background-color: #905bfb;
+  border: 1px solid #905bfb;
   color: white;
 }
 .tour-single-header .filter a i {
@@ -4587,7 +4587,7 @@ h1 {
   border: 1px solid #dee0e2;
   border-radius: 50%;
   text-align: center;
-  color: #ff9019;
+  color: #905bfb;
   -webkit-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
 }
@@ -4673,7 +4673,7 @@ h1 {
   li:not(:last-child)
   div
   li:last-child:hover {
-  color: #ff9019;
+  color: #905bfb;
 }
 .tour-single-header
   .passenger-dropdown
@@ -4830,7 +4830,7 @@ h1 {
   content: "";
   width: 55px;
   height: 1px;
-  background: #ff9019;
+  background: #905bfb;
   position: absolute;
   left: 30px;
   bottom: 25px;
@@ -4964,7 +4964,7 @@ h1 {
   margin-right: 10px;
 }
 .feature-box:nth-child(2) ul li i {
-  color: #ff9019;
+  color: #905bfb;
 }
 .feature-box:nth-child(3) ul li i {
   color: #a1d156;
@@ -5115,8 +5115,8 @@ h1 {
 }
 .upcoming-departure .departure-box a:hover {
   color: white;
-  background-color: #ff9019;
-  border: 1px solid #ff9019;
+  background-color: #905bfb;
+  border: 1px solid #905bfb;
   -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -5296,7 +5296,7 @@ h1 {
 }
 .tabs .nav-tabs li a:hover {
   text-decoration: none;
-  color: #ff9019;
+  color: #905bfb;
 }
 .tabs .nav-tabs li .active {
   border: none;
@@ -6923,3 +6923,4 @@ h1 {
   }
 }
 /*# sourceMappingURL=style.css.map */
+

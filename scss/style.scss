@@ -1,59 +1,4 @@
-/*
-	Table of contents
 
-	1. 	Google Fonts
-	2.	Body
-	3.	Link
-	4.	Site Button
-	5.	Headlines
-	6.	BG Colors
-	7.	Preloader
-	8.	Customized Odometer
-	9.	Hamburger Menu
-	10.	Accordion
-	11.	Search Box
-	12.	Section Title
-	13.	Navbar
-	14.	Header Internal Pages
-	15.	Header Denmark
-	16.	Header Norway
-	17.	Header Finland
-	18.	Header Sweden
-	19.	Header Iceland
-	20.	Find Advanture
-	21.	About Us
-	22.	About Us Video
-	23.	Our History
-	24.	Milestones
-	25.	Our Team
-	26.	Our Guides
-	27.	Blog
-	28.	Subscribe
-	29.	Popular Tours
-	30.	Popular Destinations
-	31.	Adventure Activities
-	32.	Reviews
-	33.	Recent Blog
-	34.	Related Blog
-	35.	Checkout Header
-	36.	Steps
-	37.	Checkout
-	38.	Tours Header
-	39.	Related Tours
-	40.	Tours
-	41.	Tour Single
-	42.	Tabs
-	43.	Attractions
-	44.	Quote
-	45. Contact
-	46.	Our Offices
-	47.	Contact Form
-	48. Footer
-	49.	Responsive Medium Fixes
-	50.	Responsive Tablet Fixes
-	51.	Responsive Mobile Fixes
-
-*/
 
 $ice-blue:#f4fbff;
 $light-blue:#ecf4f8;
@@ -495,7 +440,7 @@ figure{ width: 148px; display: inline-block; margin-bottom: 20px;
 	form{height: auto; padding-left: 5%;
 	input[type="text"]{ width: 100%; height: 46px; line-height: 44px; float: left; border: 1px solid #dee0e2;border-radius: 6px; padding: 0 15px;}
 	textarea{ width: 100%; height: 120px; float: left; border: 1px solid #dee0e2;border-radius: 6px; padding: 15px;}
-		button[type="submit"]{ display: inline-block; height: 50px; line-height: 50px; background: #ff9019; color: #fff; padding: 0 50px; border-radius: 6px; font-weight: 700; box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1); border:none;
+		button[type="submit"]{ display: inline-block; height: 50px; line-height: 50px; background: #905bfb; color: #fff; padding: 0 50px; border-radius: 6px; font-weight: 700; box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1); border:none;
 			&:hover { color: #fff; text-decoration: none; box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2); }}
 	}}
 
@@ -542,7 +487,7 @@ figure{ width: 148px; display: inline-block; margin-bottom: 20px;
 	p{ padding: 0 8%; font-size: 20px; line-height: 34px; color: #393c3f; margin-bottom: 50px;}
 		form{ display: flex; padding: 0 10%;
 			input{flex:1 1 auto; width: 60%; height: 56px; border:1px solid #dee0e2; font-size: 16px; color: #393c3f; padding: 0 25px; border-radius: 6px; margin-right: 10px; box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);}
-			button{width: 40%; height: 56px; border:none; background: #ff9019; color: #fff; padding: 0 50px; border-radius: 4px; font-weight: 700; box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1); @include transition; cursor: pointer;
+			button{width: 40%; height: 56px; border:none; background: #905bfb; color: #fff; padding: 0 50px; border-radius: 4px; font-weight: 700; box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1); @include transition; cursor: pointer;
 				&:hover{background-color: white; color: $orange;}
 			}}}}
 
@@ -1140,7 +1085,7 @@ h6{font-weight: 500; font-size: 16px; color: #393c3f; margin: 0;}
 		input[type="text"]{ width: 100%; height: 46px; line-height: 44px; float: left; border: 1px solid #dee0e2;border-radius: 6px; padding: 0 15px; font-size: 16px; color: #393c3f;}
 		input[type="text"]:placeholder{color: #393c3f;}
 	textarea{ width: 100%; min-height: 140px; float: left; border: 1px solid #dee0e2;border-radius: 6px; padding: 15px;}
-		button[type="submit"]{ display: inline-block; height: 50px; line-height: 50px; background: #ff9019; color: #fff; padding: 0 70px; border-radius: 6px; font-weight: 700; margin-top: 30px; @include transition; border: none; cursor: pointer;
+		button[type="submit"]{ display: inline-block; height: 50px; line-height: 50px; background: #905bfb; color: #fff; padding: 0 70px; border-radius: 6px; font-weight: 700; margin-top: 30px; @include transition; border: none; cursor: pointer;
 		&:hover { color: #ff9019; background: white; text-decoration: none; box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2); }
 }}}
 
