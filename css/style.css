@@ -4700,7 +4700,7 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 150px 0;
+  padding: 80px 0;
   font-weight: 300;
 }
 .tour-desc .section-title {
@@ -4761,7 +4761,7 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 150px 0;
+  padding: 80px 0;
 }
 .tour-attraction .attraction-carousel {
   width: 100%;
@@ -4974,7 +4974,7 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 150px 0;
+  padding: 80px 0;
   background: #f4fbff;
 }
 .tour-location .inner {
@@ -5382,7 +5382,7 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 150px 0;
+  padding: 80px 0;
 }
 .things-todo .section-title {
   margin-bottom: 18px;
@@ -6924,3 +6924,25 @@ h1 {
 }
 /*# sourceMappingURL=style.css.map */
 
+
+
+.map-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.responsive-map {
+  width: 100%;
+  max-width: 600px; /* Optional: sets a maximum width for larger screens */
+  height: auto; /* Maintains aspect ratio */
+}
+
+/* Mobile specific adjustments */
+@media (max-width: 600px) {
+  .responsive-map {
+      width: 100%;
+      height: auto;
+  }
+}
