@@ -6946,3 +6946,13 @@ h1 {
       height: auto;
   }
 }
+
+
+
+.highlight {
+  color: #905bfb;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
