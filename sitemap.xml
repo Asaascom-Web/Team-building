@@ -1,53 +1,56 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
 <url>
-<loc>http://bonspire.asia/</loc>
-<lastmod>2024-10-25T02:03:35+00:00</lastmod>
-<priority>1.00</priority>
+  <loc>https://bonspire.asia/</loc>
+  <lastmod>2024-12-31T07:28:04+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>http://bonspire.asia/activities.html</loc>
-<lastmod>2024-10-25T02:03:35+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://bonspire.asia/activities</loc>
+  <lastmod>2024-12-31T07:28:04+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://bonspire.asia/gallery.html</loc>
-<lastmod>2024-10-25T02:03:35+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://bonspire.asia/itinerary</loc>
+  <lastmod>2024-12-31T07:28:04+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://bonspire.asia/itinerary.html</loc>
-<lastmod>2024-10-25T02:03:35+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://bonspire.asia/methodology</loc>
+  <lastmod>2024-12-31T07:28:04+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://bonspire.asia/article-blog.html</loc>
-<lastmod>2024-10-25T02:03:35+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://bonspire.asia/about-us</loc>
+  <lastmod>2024-12-31T07:28:04+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://bonspire.asia/index.html</loc>
-<lastmod>2024-10-25T02:03:35+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://bonspire.asia/gallery</loc>
+  <lastmod>2024-12-31T07:28:04+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://bonspire.asia/about-us.html</loc>
-<lastmod>2024-10-25T02:03:35+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://bonspire.asia/contact</loc>
+  <lastmod>2024-12-31T07:28:04+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://bonspire.asia/methodology.html</loc>
-<lastmod>2024-10-25T02:03:35+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://bonspire.asia/schedule</loc>
+  <lastmod>2024-12-31T07:28:04+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://bonspire.asia/schedule.html</loc>
-<lastmod>2024-10-25T02:03:35+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://bonspire.asia/article-blog</loc>
+  <lastmod>2024-12-31T07:28:04+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
-<url>
-<loc>http://bonspire.asia/contact.html</loc>
-<lastmod>2024-10-25T02:03:35+00:00</lastmod>
-<priority>0.80</priority>
-</url>
+
+
 </urlset>
