@@ -521,7 +521,7 @@ figure{ width: 148px; display: inline-block; margin-bottom: 20px;
 			&:before{content: "";width: 0; height: 0; border-style: solid; border-width: 0 0 19px 19px; border-color: transparent transparent $orange transparent; position:absolute; left: -19px; bottom: 0;}
 			&:after{content: ""; width: 0; height: 0; border-style: solid; border-width: 0 19px 19px 0; border-color: transparent $orange transparent transparent; position: absolute; left: -19px; top: 0;}
 		}}
-	.tour-content{width:100%; background: #fff; padding: 40px;
+	.tour-content{width:100%; background: #ffffff; padding: 40px;
 		.tag{display: none;}
 		p{display: none;}
 		small{font-weight: 500; font-size: 12px; color: #7c838b; display: block;}

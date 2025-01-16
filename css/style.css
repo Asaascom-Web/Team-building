@@ -6957,3 +6957,98 @@ h1 {
   text-underline-offset: 10px;
 }
 
+
+/* How to Play */
+
+
+.pirates-treasure {
+  margin: 30px auto;
+  max-width: 900px;
+  padding: 25px;
+  border-radius: 25px;
+  background: rgba(255, 248, 230, 0.95);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  border: 2px solid #c39b6b;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Header */
+.main-title {
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Pirata One', cursive;
+  color: #d35400;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 5px #000;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 1.4em;
+  color: #e74c3c;
+  margin-top: -10px;
+}
+
+/* Pirates Section */
+.pirates-section {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 15px;
+  background: #fffef0;
+  border: 3px dashed #e67e22;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Section Titles */
+.section-title {
+  text-align: center;
+  font-size: 2.4em;
+  color: #d35400;
+  font-family: 'Pirata One', cursive;
+  margin-bottom: 15px;
+}
+
+/* Sub-Titles */
+.sub-title {
+  font-size: 1.6em;
+  color: #3498db;
+  border-bottom: 2px dashed #3498db;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 3px #fff;
+}
+
+/* Lists */
+.pirates-list {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+.pirates-list li {
+  margin: 10px 0;
+  padding-left: 40px;
+  position: relative;
+  font-size: 1.2em;
+}
+
+.pirates-list li::before {
+  content: '⚓';
+  position: absolute;
+  left: 0;
+  font-size: 1.5em;
+  color: #e67e22;
+}
+
+.how-play-section {
+  margin: 30px 0;
+  padding: 25px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #ffcc99, #ff9966);
+  border: 4px solid #ff7043;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+
