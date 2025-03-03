@@ -6957,3 +6957,292 @@ h1 {
   text-underline-offset: 10px;
 }
 
+
+/* How to Play */
+
+
+.pirates-treasure {
+  margin: 30px auto;
+  max-width: 900px;
+  padding: 25px;
+  border-radius: 25px;
+  background: rgba(255, 248, 230, 0.95);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  border: 2px solid #c39b6b;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Header */
+.main-title {
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Pirata One', cursive;
+  color: #d35400;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 5px #000;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 1.4em;
+  color: #e74c3c;
+  margin-top: -10px;
+}
+
+/* Pirates Section */
+.pirates-section {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 15px;
+  background: #fffef0;
+  border: 3px dashed #e67e22;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Section Titles */
+.pirates-section-title {
+  text-align: center;
+  font-size: 2.4em;
+  color: #d35400;
+  font-family: 'Pirata One', cursive;
+  margin-bottom: 15px;
+}
+
+/* Sub-Titles */
+.sub-title {
+  font-size: 1.6em;
+  color: #3498db;
+  border-bottom: 2px dashed #3498db;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 3px #fff;
+}
+
+/* Lists */
+.pirates-list {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+.pirates-list li {
+  margin: 10px 0;
+  padding-left: 40px;
+  position: relative;
+  font-size: 1.2em;
+}
+
+.pirates-list li::before {
+  content: '⚓';
+  position: absolute;
+  left: 0;
+  font-size: 1.5em;
+  color: #e67e22;
+}
+
+.how-play-section {
+  margin: 30px 0;
+  padding: 25px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #ffcc99, #ff9966);
+  border: 4px solid #ff7043;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+
+/* Spies Adventure */
+
+/* General Styles */
+.spies-adventurers {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #0d0d0d, #1a1a1a); /* Sleek dark gradient */
+  color: #eaeaea; /* Light text for contrast */
+  line-height: 1.6;
+}
+
+/* Header */
+.spies-adventurers header {
+  background: linear-gradient(90deg, #2b2b2b, #4b4b4b);
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+}
+
+.spies-adventurers header::before {
+  content: '';
+  position: absolute;
+  width: 150%;
+  height: 150%;
+  top: -100px;
+  left: -200px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 10%, transparent 70%);
+  transform: rotate(45deg);
+  animation: spy-glow 6s infinite;
+  z-index: 1;
+}
+
+.spies-adventurers header h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.8);
+  z-index: 2;
+  position: relative;
+}
+
+/* Animations */
+@keyframes spy-glow {
+  0%, 100% {
+      transform: translateX(-200px) rotate(45deg);
+  }
+  50% {
+      transform: translateX(200px) rotate(45deg);
+  }
+}
+
+/* Section Styles */
+.spies-adventurers section {
+  padding: 25px;
+  margin: 20px auto;
+  background: #262626;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.8);
+  max-width: 900px;
+  position: relative;
+}
+
+.spies-adventurers section h2, .spies-adventurers section h3 {
+  color: #ffb400; /* Spy-themed color */
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ffb400;
+  display: inline-block;
+}
+
+.spies-adventurers section p, .spies-adventurers section ul {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.spies-adventurers section ul {
+  margin: 15px 0;
+  padding-left: 40px;
+  list-style-type: disc;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.spies-adventurers section ul li {
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.spies-adventurers section ul li::before {
+  content: "★";
+  color: #ff5722;
+  position: absolute;
+  left: -25px;
+  font-size: 1.5rem;
+  animation: bounce 1.5s infinite ease-in-out;
+}
+
+/* Highlighted Content */
+.spies-adventurers .highlight {
+  background: linear-gradient(to right, #2a2a2a, #3a3a3a);
+  padding: 20px;
+  border-left: 5px solid #f44336;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+/* Buttons */
+.spies-adventurers button {
+  background: #4caf50;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: transform 0.3s ease, background 0.3s ease;
+  margin-top: 20px;
+}
+
+.spies-adventurers button:hover {
+  background: #45a049;
+  transform: scale(1.1);
+}
+
+/* Links */
+.spies-adventurers a {
+  color: #2196f3;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+}
+
+.spies-adventurers a::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #2196f3;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease-in-out;
+}
+
+.spies-adventurers a:hover::after {
+  width: 100%;
+}
+
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-10px);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .spies-adventurers header h1 {
+      font-size: 2rem;
+  }
+
+  .spies-adventurers section {
+      padding: 15px;
+  }
+
+  .spies-adventurers section h2, .spies-adventurers section h3 {
+      font-size: 1.5rem;
+  }
+
+  .spies-adventurers section p, .spies-adventurers section ul {
+      font-size: 1rem;
+  }
+}
+
