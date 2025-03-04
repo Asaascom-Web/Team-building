@@ -146,7 +146,7 @@
 
 
 		// SLIDER
-		var menu = ['WHO WE ARE<span>Talent Develoment</span>', 'BONDSPIRE<span>Team Dynamics</span>', 'BONDSPIRE<span>Trust Building</span>', 'BONDSPIRE<span>Team Energy</span>'];
+		var menu = ['WHO WE ARE<span>Talent Development</span>', 'BONDSPIRE<span>Team Dynamics</span>', 'BONDSPIRE<span>Trust Building</span>', 'BONDSPIRE<span>Team Energy</span>'];
 		var interleaveOffset = 0.5;
 		var swiperOptions = {
 			loop: true,
