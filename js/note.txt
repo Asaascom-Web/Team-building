@@ -47,3 +47,12 @@
 		};
 
 		var swiper = new Swiper(".swiper-container", swiperOptions);
+
+
+
+
+
+
+
+
+		header-denmark .swiper-pagination-bullet
