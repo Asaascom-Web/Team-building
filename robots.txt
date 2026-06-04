@@ -1,10 +1,10 @@
 # Block the unwanted subdomain
 User-agent: *
-Disallow: https://bonspire.asia.tec.edu.my/
+Disallow: https://bondspire.asia.tec.edu.my/
 
 # Allow all content on the main website
 User-agent: *
 Disallow: /cgi-bin/
 
 # Specify the correct sitemap
-Sitemap: https://www.bonspire.asia/sitemap.xml
+Sitemap: https://www.bondspire.asia/sitemap.xml
